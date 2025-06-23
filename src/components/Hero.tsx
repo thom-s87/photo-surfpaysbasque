@@ -8,7 +8,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative h-screen flex items-center justify-center text-center px-4 overflow-hidden">
+    <section id="hero" className="relative h-screen flex items-center justify-center text-center px-4 overflow-hidden">
       {/* Background image avec overlay */}
       <div 
         className="absolute inset-0 bg-cover bg-center"
@@ -17,17 +17,6 @@ const Hero = () => {
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-purple-900/70 via-pink-900/60 to-orange-800/70"></div>
-      </div>
-
-      {/* Logo discret en haut */}
-      <div className="absolute top-6 left-6 z-20">
-        <div className="text-2xl font-black tracking-wider">
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-pink-400 to-purple-400">photo</span>
-          <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 text-4xl">SURF</span>
-          <br />
-          <span className="text-purple-800 text-lg font-bold italic" style={{ fontFamily: 'cursive' }}>pays basque</span>
-        </div>
       </div>
 
       {/* Contenu principal */}

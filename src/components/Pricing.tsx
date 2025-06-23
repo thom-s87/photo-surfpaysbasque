@@ -13,7 +13,8 @@ const Pricing = () => {
               80€
             </div>
             <p className="text-2xl text-purple-300 mb-2">Session photo solo d'1h</p>
-            <p className="text-lg text-yellow-400">Jusqu'à 10 photos HD incluses</p>
+            <p className="text-lg text-yellow-400">Pack 10 photos sur SportPXL à moitié prix = 50€</p>
+            <p className="text-sm text-pink-400 mt-2">(au lieu de 100€ avec le pack athlète)</p>
           </div>
           
           {/* Features */}
@@ -25,7 +26,7 @@ const Pricing = () => {
               </div>
               <div className="flex items-center text-purple-100">
                 <span className="text-yellow-400 text-xl mr-3">📸</span>
-                <span>Jusqu'à 10 photos HD de qualité</span>
+                <span>Pack 10 photos sur SportPXL</span>
               </div>
             </div>
             <div className="space-y-3">
@@ -54,6 +55,9 @@ const Pricing = () => {
             >
               🔗 SportPXL Dashboard
             </a>
+            <p className="text-sm text-pink-400 mt-4">
+              Pack athlète : 10 photos à 50€ au lieu de 100€
+            </p>
           </div>
           
           <p className="text-purple-300 text-lg">

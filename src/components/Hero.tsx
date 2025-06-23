@@ -21,15 +21,21 @@ const Hero = () => {
 
       {/* Logo discret en haut */}
       <div className="absolute top-6 left-6 z-20">
-        <h1 className="text-2xl font-bold text-yellow-400 tracking-wider">
-          PHOTO SURF
-        </h1>
+        <div className="text-2xl font-black tracking-wider">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-pink-400 to-purple-400">photo</span>
+          <br />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 text-4xl">SURF</span>
+          <br />
+          <span className="text-purple-800 text-lg font-bold italic" style={{ fontFamily: 'cursive' }}>pays basque</span>
+        </div>
       </div>
 
       {/* Contenu principal */}
       <div className="relative z-10 max-w-4xl mx-auto animate-fade-in">
-        <h1 className="text-4xl md:text-7xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-yellow-400 leading-tight">
-          photo surf pays Basque
+        <h1 className="text-4xl md:text-7xl font-black mb-6 leading-tight tracking-wider">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-pink-400 to-purple-400 block">photo</span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 block text-5xl md:text-8xl">SURF</span>
+          <span className="text-purple-300 text-2xl md:text-4xl font-bold italic block mt-2" style={{ fontFamily: 'cursive' }}>pays basque</span>
         </h1>
         
         <p className="text-xl md:text-3xl text-yellow-300 mb-8 font-light tracking-wide">

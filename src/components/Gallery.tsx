@@ -2,34 +2,19 @@
 const Gallery = () => {
   const photos = [
     {
-      url: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=400&fit=crop",
-      title: "Barrel perfection",
+      url: "https://images.unsplash.com/photo-1518877593221-1f28583780b4?w=600&h=400&fit=crop",
+      title: "Lafitenia Classic",
       spot: "Lafitenia"
     },
     {
-      url: "https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=600&h=400&fit=crop",
-      title: "Big wave session",
+      url: "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=600&h=400&fit=crop",
+      title: "Parlementia Power",
       spot: "Parlementia"
     },
     {
-      url: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop",
-      title: "Sunset surf",
+      url: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?w=600&h=400&fit=crop",
+      title: "Les Cavaliers Dawn",
       spot: "Les Cavaliers"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop",
-      title: "Perfect barrel",
-      spot: "Guéthary"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=600&h=400&fit=crop",
-      title: "Aerial action",
-      spot: "Biarritz"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1530549387789-4c1017266635?w=600&h=400&fit=crop",
-      title: "Dawn patrol",
-      spot: "Hendaye"
     }
   ];
 

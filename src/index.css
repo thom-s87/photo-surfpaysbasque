@@ -103,3 +103,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Classe pour la police Freestyle Script */
+.freestyle-script {
+  font-family: 'Freestyle Script', cursive !important;
+}

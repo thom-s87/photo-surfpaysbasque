@@ -24,7 +24,7 @@ const Hero = () => {
         <h1 className="text-4xl md:text-7xl font-black mb-6 leading-tight tracking-wider">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-pink-400 to-purple-400 block">photo</span>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 block text-5xl md:text-8xl">SURF</span>
-          <span className="text-purple-300 text-2xl md:text-4xl font-bold italic block mt-2" style={{ fontFamily: 'cursive' }}>pays basque</span>
+          <span className="text-purple-300 text-2xl md:text-4xl font-bold block mt-2" style={{ fontFamily: "'Freestyle Script', cursive" }}>pays basque</span>
         </h1>
         
         <p className="text-xl md:text-3xl text-yellow-300 mb-8 font-light tracking-wide">

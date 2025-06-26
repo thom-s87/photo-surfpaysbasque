@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 
 const Footer = () => {
@@ -13,9 +12,8 @@ const Footer = () => {
         {/* Citation */}
         <div className="mb-16">
           <blockquote className="text-3xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-400 mb-4 italic">
-            "C'est ensemble que l'on fera de belles photos."
+            "Je capture vos sessions de surf comme si j'y étais, pour que chaque vague devienne un souvenir."
           </blockquote>
-          <p className="text-purple-300 text-lg">— Thom, Photographe</p>
         </div>
         
         {/* Compteur objectif caisson */}

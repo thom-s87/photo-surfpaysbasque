@@ -24,7 +24,13 @@ const Hero = () => {
         <h1 className="text-4xl md:text-7xl font-black mb-6 leading-tight tracking-wider">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-pink-400 to-purple-400 block">photo</span>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 block text-5xl md:text-8xl">SURF</span>
-          <span className="text-purple-300 text-2xl md:text-4xl font-bold block mt-2 freestyle-script">pays basque</span>
+          <div className="flex justify-center mt-4">
+            <img 
+              src="/lovable-uploads/f0ff5f88-ee9c-4d1f-99a8-d83aa7778cf6.png" 
+              alt="pays basque" 
+              className="h-8 md:h-12 w-auto"
+            />
+          </div>
         </h1>
         
         <p className="text-xl md:text-3xl text-yellow-300 mb-8 font-light tracking-wide">

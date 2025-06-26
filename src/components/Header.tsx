@@ -46,12 +46,8 @@ const Header = () => {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-pink-400 to-purple-400">photo</span>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 text-xl ml-1">SURF</span>
             </div>
-            <div className="flex items-center mt-1">
-              <img 
-                src="/lovable-uploads/f0ff5f88-ee9c-4d1f-99a8-d83aa7778cf6.png" 
-                alt="pays basque" 
-                className="h-4 w-auto"
-              />
+            <div className="text-xs text-purple-300 font-bold freestyle-script">
+              pays basque
             </div>
           </div>
 

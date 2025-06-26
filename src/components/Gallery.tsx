@@ -1,11 +1,12 @@
 
+
 const Gallery = () => {
   const photos = [
     {
-      url: "/lovable-uploads/03f44437-e20a-4321-8c6a-87c9cea8451b.png",
-      title: "Session Duo Parfaite",
-      spot: "Côte Basque",
-      description: "Complicité et technique sur la vague"
+      url: "/lovable-uploads/5c369216-5d5b-41d6-a467-d713af809110.png",
+      title: "Action Dynamique",
+      spot: "Côte Sauvage",
+      description: "Puissance et émotion capturées"
     },
     {
       url: "/lovable-uploads/c6304710-a920-4ff1-a9f6-41c0e1db5b32.png",
@@ -14,10 +15,10 @@ const Gallery = () => {
       description: "Magic hour avec vue sur château"
     },
     {
-      url: "/lovable-uploads/5c369216-5d5b-41d6-a467-d713af809110.png",
-      title: "Action Dynamique",
-      spot: "Côte Sauvage",
-      description: "Puissance et émotion capturées"
+      url: "/lovable-uploads/03f44437-e20a-4321-8c6a-87c9cea8451b.png",
+      title: "Session Duo Parfaite",
+      spot: "Côte Basque",
+      description: "Complicité et technique sur la vague"
     }
   ];
 
@@ -53,11 +54,6 @@ const Gallery = () => {
                 </div>
               </div>
               
-              {/* Badge professionnel */}
-              <div className="absolute top-4 right-4 bg-black/70 backdrop-blur-sm px-3 py-1 rounded-full">
-                <span className="text-yellow-400 text-xs font-bold">📸 PRO</span>
-              </div>
-              
               {/* Effet néon sur les bords */}
               <div className="absolute inset-0 border-2 border-transparent group-hover:border-yellow-400 group-hover:shadow-[0_0_20px_#facc15] transition-all duration-300 rounded-2xl"></div>
             </div>
@@ -82,3 +78,4 @@ const Gallery = () => {
 };
 
 export default Gallery;
+

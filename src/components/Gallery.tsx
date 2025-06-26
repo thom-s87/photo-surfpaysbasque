@@ -2,19 +2,22 @@
 const Gallery = () => {
   const photos = [
     {
-      url: "https://images.unsplash.com/photo-1518877593221-1f28583780b4?w=600&h=400&fit=crop",
-      title: "Lafitenia Classic",
-      spot: "Lafitenia"
+      url: "/lovable-uploads/03f44437-e20a-4321-8c6a-87c9cea8451b.png",
+      title: "Session Duo Parfaite",
+      spot: "Côte Basque",
+      description: "Complicité et technique sur la vague"
     },
     {
-      url: "https://images.unsplash.com/photo-1500673922987-e212871fec22?w=600&h=400&fit=crop",
-      title: "Parlementia Power",
-      spot: "Parlementia"
+      url: "/lovable-uploads/c6304710-a920-4ff1-a9f6-41c0e1db5b32.png",
+      title: "Ambiance Sunset",
+      spot: "Biarritz",
+      description: "Magic hour avec vue sur château"
     },
     {
-      url: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?w=600&h=400&fit=crop",
-      title: "Les Cavaliers Dawn",
-      spot: "Les Cavaliers"
+      url: "/lovable-uploads/5c369216-5d5b-41d6-a467-d713af809110.png",
+      title: "Action Dynamique",
+      spot: "Côte Sauvage",
+      description: "Puissance et émotion capturées"
     }
   ];
 
@@ -37,14 +40,22 @@ const Gallery = () => {
                 className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700"
               />
               
-              {/* Overlay rétro */}
-              <div className="absolute inset-0 bg-gradient-to-t from-purple-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              {/* Overlay professionnel */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-6 left-6 right-6">
                   <h3 className="text-yellow-400 font-bold text-xl mb-2">{photo.title}</h3>
-                  <p className="text-pink-300 text-sm bg-black/50 px-3 py-1 rounded-full inline-block">
+                  <p className="text-pink-300 text-sm mb-2">
                     📍 {photo.spot}
                   </p>
+                  <p className="text-white/90 text-xs font-light italic">
+                    {photo.description}
+                  </p>
                 </div>
+              </div>
+              
+              {/* Badge professionnel */}
+              <div className="absolute top-4 right-4 bg-black/70 backdrop-blur-sm px-3 py-1 rounded-full">
+                <span className="text-yellow-400 text-xs font-bold">📸 PRO</span>
               </div>
               
               {/* Effet néon sur les bords */}
@@ -54,9 +65,16 @@ const Gallery = () => {
         </div>
         
         <div className="text-center mt-12">
-          <p className="text-purple-300 text-lg">
-            Style reportage visuel • Grand format • Couleurs vives • Ambiance vintage californienne
+          <p className="text-purple-300 text-lg mb-4">
+            Photographie sportive professionnelle • Captures authentiques • Émotions pures
           </p>
+          <div className="flex justify-center items-center space-x-6 text-sm text-yellow-400">
+            <span>🌊 Action</span>
+            <span>•</span>
+            <span>🏄‍♀️ Lifestyle</span>
+            <span>•</span>
+            <span>📷 Reportage</span>
+          </div>
         </div>
       </div>
     </section>
